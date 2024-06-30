@@ -1,0 +1,14 @@
+﻿@{
+    ViewData["Title"] = "View Study Data of All students";
+}
+
+<h2>View Study Data of All students</h2>
+
+<p>Hello from our View Template!</p>
+
+<ul>
+    @foreach (var item in (List<string>)ViewData["studySessions"])
+    {
+        <li>@item</li>
+    }
+</ul>
