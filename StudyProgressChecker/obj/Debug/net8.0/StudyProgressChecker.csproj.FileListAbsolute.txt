@@ -28,3 +28,4 @@ C:\Users\Chamiru Senarath\source\repos\StudyProgressChecker\StudyProgressChecker
 C:\Users\Chamiru Senarath\source\repos\StudyProgressChecker\StudyProgressChecker\obj\Debug\net8.0\StudyProgressChecker.pdb
 C:\Users\Chamiru Senarath\source\repos\StudyProgressChecker\StudyProgressChecker\obj\Debug\net8.0\StudyProgressChecker.genruntimeconfig.cache
 C:\Users\Chamiru Senarath\source\repos\StudyProgressChecker\StudyProgressChecker\obj\Debug\net8.0\ref\StudyProgressChecker.dll
+C:\Users\Chamiru Senarath\source\repos\StudyProgressChecker\StudyProgressChecker\obj\Debug\net8.0\StudyProgressChecker.sourcelink.json

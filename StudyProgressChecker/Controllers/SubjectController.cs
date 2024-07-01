@@ -42,5 +42,35 @@ namespace StudyProgressChecker.Controllers
             // Validation failed, return the view with errors
             return View(model);
         }
+
+        // Display edit subject form
+        public IActionResult Edit(string id)
+        {
+            var subject = Subject.GetSubjectById(id);
+            if (subject == null)
+            {
+                return NotFound();
+            }
+            return View(subject);
+        }
+
+        // Handle edit subject form submission
+        [HttpPost]
+        [ValidateAntiForgeryToken]
+        public IActionResult Edit(Subject subject)
+        {
+            if (ModelState.IsValid)
+            {
+                var existingSubject = Subject.GetSubjectById(subject.Id);
+                if (existingSubject == null)
+                {
+                    return NotFound();
+                }
+                existingSubject.UpdateName(subject.Name);
+                existingSubject.UpdateWeight(subject.Weight);
+                return RedirectToAction(nameof(Index));
+            }
+            return View(subject);
+        }
     }
 }

@@ -1,12 +1,15 @@
-﻿@model List<Subject>
+﻿@model List<StudyProgressChecker.Models.Subject>
 
 <h2>All Subjects</h2>
+
+<a asp-action="Add" class="btn btn-primary">Add New Subject</a>
 
 <table class="table">
     <tr>
         <th>ID</th>
         <th>Name</th>
         <th>Weight</th>
+        <th>Actions</th>
     </tr>
     @foreach (var subject in Model)
     {
@@ -14,6 +17,9 @@
             <td>@subject.Id</td>
             <td>@subject.Name</td>
             <td>@subject.Weight</td>
+            <td>
+                <a class="btn btn-secondary" asp-area="" asp-controller="Subject" asp-action="Edit" asp-route-id="@subject.Id" >Edit</a>
+            </td>
         </tr>
     }
 </table>
