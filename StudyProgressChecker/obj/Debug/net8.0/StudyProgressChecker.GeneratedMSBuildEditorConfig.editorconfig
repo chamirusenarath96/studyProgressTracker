@@ -14,13 +14,9 @@ build_property.EnableComHosting =
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.RazorLangVersion = 8.0
 build_property.SupportLocalizedComponentNames = 
-build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = true
 build_property.MSBuildProjectDirectory = C:\Users\Chamiru Senarath\source\repos\StudyProgressChecker\StudyProgressChecker
 build_property._RazorSourceGeneratorDebug = 
-
-[C:/Users/Chamiru Senarath/source/repos/StudyProgressChecker/StudyProgressChecker/Views/AddStudyData/Index.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRkU3R1ZHlEYXRhXEluZGV4LmNzaHRtbA==
-build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/Chamiru Senarath/source/repos/StudyProgressChecker/StudyProgressChecker/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
@@ -28,6 +24,14 @@ build_metadata.AdditionalFiles.CssScope =
 
 [C:/Users/Chamiru Senarath/source/repos/StudyProgressChecker/StudyProgressChecker/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Chamiru Senarath/source/repos/StudyProgressChecker/StudyProgressChecker/Views/Shared/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Chamiru Senarath/source/repos/StudyProgressChecker/StudyProgressChecker/Views/Shared/EditAll.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVkaXRBbGwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/Chamiru Senarath/source/repos/StudyProgressChecker/StudyProgressChecker/Views/Shared/Error.cshtml]
@@ -38,24 +42,48 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Users/Chamiru Senarath/source/repos/StudyProgressChecker/StudyProgressChecker/Views/Student/AssignSubject.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3R1ZGVudFxBc3NpZ25TdWJqZWN0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Chamiru Senarath/source/repos/StudyProgressChecker/StudyProgressChecker/Views/Student/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3R1ZGVudFxDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Chamiru Senarath/source/repos/StudyProgressChecker/StudyProgressChecker/Views/Student/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3R1ZGVudFxEZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Chamiru Senarath/source/repos/StudyProgressChecker/StudyProgressChecker/Views/Student/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3R1ZGVudFxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Chamiru Senarath/source/repos/StudyProgressChecker/StudyProgressChecker/Views/StudySession/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3R1ZHlTZXNzaW9uXENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Chamiru Senarath/source/repos/StudyProgressChecker/StudyProgressChecker/Views/StudySession/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3R1ZHlTZXNzaW9uXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Chamiru Senarath/source/repos/StudyProgressChecker/StudyProgressChecker/Views/StudySession/StudentProgress.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3R1ZHlTZXNzaW9uXFN0dWRlbnRQcm9ncmVzcy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/Chamiru Senarath/source/repos/StudyProgressChecker/StudyProgressChecker/Views/Subject/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3ViamVjdFxDcmVhdGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Chamiru Senarath/source/repos/StudyProgressChecker/StudyProgressChecker/Views/Subject/Details.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3ViamVjdFxEZXRhaWxzLmNzaHRtbA==
+[C:/Users/Chamiru Senarath/source/repos/StudyProgressChecker/StudyProgressChecker/Views/Subject/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3ViamVjdFxFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Chamiru Senarath/source/repos/StudyProgressChecker/StudyProgressChecker/Views/Subject/EditAll.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3ViamVjdFxFZGl0QWxsLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/Chamiru Senarath/source/repos/StudyProgressChecker/StudyProgressChecker/Views/Subject/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3ViamVjdFxJbmRleC5jc2h0bWw=
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/Users/Chamiru Senarath/source/repos/StudyProgressChecker/StudyProgressChecker/Views/ViewSingleStudent/Index.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVmlld1NpbmdsZVN0dWRlbnRcSW5kZXguY3NodG1s
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/Users/Chamiru Senarath/source/repos/StudyProgressChecker/StudyProgressChecker/Views/ViewStudyData/Index.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVmlld1N0dWR5RGF0YVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/Chamiru Senarath/source/repos/StudyProgressChecker/StudyProgressChecker/Views/_ViewImports.cshtml]

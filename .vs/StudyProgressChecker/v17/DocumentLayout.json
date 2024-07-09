@@ -3,68 +3,40 @@
   "WorkspaceRootPath": "C:\\Users\\Chamiru Senarath\\source\\repos\\StudyProgressChecker\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{2D632A88-4CD9-42D6-B2B1-0F560B9B3FAA}|StudyProgressChecker\\StudyProgressChecker.csproj|c:\\users\\chamiru senarath\\source\\repos\\studyprogresschecker\\studyprogresschecker\\views\\subject\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{2D632A88-4CD9-42D6-B2B1-0F560B9B3FAA}|StudyProgressChecker\\StudyProgressChecker.csproj|solutionrelative:studyprogresschecker\\views\\subject\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2D632A88-4CD9-42D6-B2B1-0F560B9B3FAA}|StudyProgressChecker\\StudyProgressChecker.csproj|c:\\users\\chamiru senarath\\source\\repos\\studyprogresschecker\\studyprogresschecker\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{2D632A88-4CD9-42D6-B2B1-0F560B9B3FAA}|StudyProgressChecker\\StudyProgressChecker.csproj|solutionrelative:studyprogresschecker\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2D632A88-4CD9-42D6-B2B1-0F560B9B3FAA}|StudyProgressChecker\\StudyProgressChecker.csproj|c:\\users\\chamiru senarath\\source\\repos\\studyprogresschecker\\studyprogresschecker\\controllers\\subjectcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2D632A88-4CD9-42D6-B2B1-0F560B9B3FAA}|StudyProgressChecker\\StudyProgressChecker.csproj|solutionrelative:studyprogresschecker\\controllers\\subjectcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2D632A88-4CD9-42D6-B2B1-0F560B9B3FAA}|StudyProgressChecker\\StudyProgressChecker.csproj|c:\\users\\chamiru senarath\\source\\repos\\studyprogresschecker\\studyprogresschecker\\views\\subject\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{2D632A88-4CD9-42D6-B2B1-0F560B9B3FAA}|StudyProgressChecker\\StudyProgressChecker.csproj|solutionrelative:studyprogresschecker\\views\\subject\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2D632A88-4CD9-42D6-B2B1-0F560B9B3FAA}|StudyProgressChecker\\StudyProgressChecker.csproj|c:\\users\\chamiru senarath\\source\\repos\\studyprogresschecker\\studyprogresschecker\\models\\subject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2D632A88-4CD9-42D6-B2B1-0F560B9B3FAA}|StudyProgressChecker\\StudyProgressChecker.csproj|solutionrelative:studyprogresschecker\\models\\subject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2D632A88-4CD9-42D6-B2B1-0F560B9B3FAA}|StudyProgressChecker\\StudyProgressChecker.csproj|c:\\users\\chamiru senarath\\source\\repos\\studyprogresschecker\\studyprogresschecker\\views\\subject\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{2D632A88-4CD9-42D6-B2B1-0F560B9B3FAA}|StudyProgressChecker\\StudyProgressChecker.csproj|solutionrelative:studyprogresschecker\\views\\subject\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2D632A88-4CD9-42D6-B2B1-0F560B9B3FAA}|StudyProgressChecker\\StudyProgressChecker.csproj|c:\\users\\chamiru senarath\\source\\repos\\studyprogresschecker\\studyprogresschecker\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2D632A88-4CD9-42D6-B2B1-0F560B9B3FAA}|StudyProgressChecker\\StudyProgressChecker.csproj|solutionrelative:studyprogresschecker\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2D632A88-4CD9-42D6-B2B1-0F560B9B3FAA}|StudyProgressChecker\\StudyProgressChecker.csproj|c:\\users\\chamiru senarath\\source\\repos\\studyprogresschecker\\studyprogresschecker\\views\\subject\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{2D632A88-4CD9-42D6-B2B1-0F560B9B3FAA}|StudyProgressChecker\\StudyProgressChecker.csproj|solutionrelative:studyprogresschecker\\views\\subject\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2D632A88-4CD9-42D6-B2B1-0F560B9B3FAA}|StudyProgressChecker\\StudyProgressChecker.csproj|c:\\users\\chamiru senarath\\source\\repos\\studyprogresschecker\\studyprogresschecker\\models\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2D632A88-4CD9-42D6-B2B1-0F560B9B3FAA}|StudyProgressChecker\\StudyProgressChecker.csproj|solutionrelative:studyprogresschecker\\models\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{2D632A88-4CD9-42D6-B2B1-0F560B9B3FAA}|StudyProgressChecker\\StudyProgressChecker.csproj|c:\\users\\chamiru senarath\\source\\repos\\studyprogresschecker\\studyprogresschecker\\views\\studysession\\studentprogress.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2D632A88-4CD9-42D6-B2B1-0F560B9B3FAA}|StudyProgressChecker\\StudyProgressChecker.csproj|solutionrelative:studyprogresschecker\\views\\studysession\\studentprogress.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{2D632A88-4CD9-42D6-B2B1-0F560B9B3FAA}|StudyProgressChecker\\StudyProgressChecker.csproj|c:\\users\\chamiru senarath\\source\\repos\\studyprogresschecker\\studyprogresschecker\\models\\studysession.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2D632A88-4CD9-42D6-B2B1-0F560B9B3FAA}|StudyProgressChecker\\StudyProgressChecker.csproj|solutionrelative:studyprogresschecker\\models\\studysession.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2D632A88-4CD9-42D6-B2B1-0F560B9B3FAA}|StudyProgressChecker\\StudyProgressChecker.csproj|c:\\users\\chamiru senarath\\source\\repos\\studyprogresschecker\\studyprogresschecker\\models\\enums.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2D632A88-4CD9-42D6-B2B1-0F560B9B3FAA}|StudyProgressChecker\\StudyProgressChecker.csproj|solutionrelative:studyprogresschecker\\models\\enums.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{2D632A88-4CD9-42D6-B2B1-0F560B9B3FAA}|StudyProgressChecker\\StudyProgressChecker.csproj|c:\\users\\chamiru senarath\\source\\repos\\studyprogresschecker\\studyprogresschecker\\controllers\\studysessioncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2D632A88-4CD9-42D6-B2B1-0F560B9B3FAA}|StudyProgressChecker\\StudyProgressChecker.csproj|solutionrelative:studyprogresschecker\\controllers\\studysessioncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2D632A88-4CD9-42D6-B2B1-0F560B9B3FAA}|StudyProgressChecker\\StudyProgressChecker.csproj|c:\\users\\chamiru senarath\\source\\repos\\studyprogresschecker\\studyprogresschecker\\views\\addstudydata\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{2D632A88-4CD9-42D6-B2B1-0F560B9B3FAA}|StudyProgressChecker\\StudyProgressChecker.csproj|solutionrelative:studyprogresschecker\\views\\addstudydata\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{2D632A88-4CD9-42D6-B2B1-0F560B9B3FAA}|StudyProgressChecker\\StudyProgressChecker.csproj|c:\\users\\chamiru senarath\\source\\repos\\studyprogresschecker\\studyprogresschecker\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2D632A88-4CD9-42D6-B2B1-0F560B9B3FAA}|StudyProgressChecker\\StudyProgressChecker.csproj|solutionrelative:studyprogresschecker\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2D632A88-4CD9-42D6-B2B1-0F560B9B3FAA}|StudyProgressChecker\\StudyProgressChecker.csproj|c:\\users\\chamiru senarath\\source\\repos\\studyprogresschecker\\studyprogresschecker\\controllers\\viewsinglestudentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2D632A88-4CD9-42D6-B2B1-0F560B9B3FAA}|StudyProgressChecker\\StudyProgressChecker.csproj|solutionrelative:studyprogresschecker\\controllers\\viewsinglestudentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{2D632A88-4CD9-42D6-B2B1-0F560B9B3FAA}|StudyProgressChecker\\StudyProgressChecker.csproj|c:\\users\\chamiru senarath\\source\\repos\\studyprogresschecker\\studyprogresschecker\\models\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2D632A88-4CD9-42D6-B2B1-0F560B9B3FAA}|StudyProgressChecker\\StudyProgressChecker.csproj|solutionrelative:studyprogresschecker\\models\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2D632A88-4CD9-42D6-B2B1-0F560B9B3FAA}|StudyProgressChecker\\StudyProgressChecker.csproj|c:\\users\\chamiru senarath\\source\\repos\\studyprogresschecker\\studyprogresschecker\\controllers\\addstudysessioncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2D632A88-4CD9-42D6-B2B1-0F560B9B3FAA}|StudyProgressChecker\\StudyProgressChecker.csproj|solutionrelative:studyprogresschecker\\controllers\\addstudysessioncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{2D632A88-4CD9-42D6-B2B1-0F560B9B3FAA}|StudyProgressChecker\\StudyProgressChecker.csproj|c:\\users\\chamiru senarath\\source\\repos\\studyprogresschecker\\studyprogresschecker\\views\\studysession\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2D632A88-4CD9-42D6-B2B1-0F560B9B3FAA}|StudyProgressChecker\\StudyProgressChecker.csproj|solutionrelative:studyprogresschecker\\views\\studysession\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2D632A88-4CD9-42D6-B2B1-0F560B9B3FAA}|StudyProgressChecker\\StudyProgressChecker.csproj|c:\\users\\chamiru senarath\\source\\repos\\studyprogresschecker\\studyprogresschecker\\views\\viewstudydata\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{2D632A88-4CD9-42D6-B2B1-0F560B9B3FAA}|StudyProgressChecker\\StudyProgressChecker.csproj|solutionrelative:studyprogresschecker\\views\\viewstudydata\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{2D632A88-4CD9-42D6-B2B1-0F560B9B3FAA}|StudyProgressChecker\\StudyProgressChecker.csproj|c:\\users\\chamiru senarath\\source\\repos\\studyprogresschecker\\studyprogresschecker\\views\\studysession\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2D632A88-4CD9-42D6-B2B1-0F560B9B3FAA}|StudyProgressChecker\\StudyProgressChecker.csproj|solutionrelative:studyprogresschecker\\views\\studysession\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2D632A88-4CD9-42D6-B2B1-0F560B9B3FAA}|StudyProgressChecker\\StudyProgressChecker.csproj|c:\\users\\chamiru senarath\\source\\repos\\studyprogresschecker\\studyprogresschecker\\controllers\\viewstudydatacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2D632A88-4CD9-42D6-B2B1-0F560B9B3FAA}|StudyProgressChecker\\StudyProgressChecker.csproj|solutionrelative:studyprogresschecker\\controllers\\viewstudydatacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{2D632A88-4CD9-42D6-B2B1-0F560B9B3FAA}|StudyProgressChecker\\StudyProgressChecker.csproj|c:\\users\\chamiru senarath\\source\\repos\\studyprogresschecker\\studyprogresschecker\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2D632A88-4CD9-42D6-B2B1-0F560B9B3FAA}|StudyProgressChecker\\StudyProgressChecker.csproj|solutionrelative:studyprogresschecker\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2D632A88-4CD9-42D6-B2B1-0F560B9B3FAA}|StudyProgressChecker\\StudyProgressChecker.csproj|c:\\users\\chamiru senarath\\source\\repos\\studyprogresschecker\\studyprogresschecker\\views\\student\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2D632A88-4CD9-42D6-B2B1-0F560B9B3FAA}|StudyProgressChecker\\StudyProgressChecker.csproj|solutionrelative:studyprogresschecker\\views\\student\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -74,7 +46,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 6,
           "Children": [
             {
               "$type": "Bookmark",
@@ -82,207 +54,124 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "SubjectController.cs",
-              "DocumentMoniker": "C:\\Users\\Chamiru Senarath\\source\\repos\\StudyProgressChecker\\StudyProgressChecker\\Controllers\\SubjectController.cs",
-              "RelativeDocumentMoniker": "StudyProgressChecker\\Controllers\\SubjectController.cs",
-              "ToolTip": "C:\\Users\\Chamiru Senarath\\source\\repos\\StudyProgressChecker\\StudyProgressChecker\\Controllers\\SubjectController.cs",
-              "RelativeToolTip": "StudyProgressChecker\\Controllers\\SubjectController.cs",
-              "ViewState": "AQIAABAAAAAAAAAAAAArwCoAAAAfAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-30T06:29:23.504Z",
+              "DocumentIndex": 5,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Chamiru Senarath\\source\\repos\\StudyProgressChecker\\StudyProgressChecker\\Views\\StudySession\\Index.cshtml",
+              "RelativeDocumentMoniker": "StudyProgressChecker\\Views\\StudySession\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Chamiru Senarath\\source\\repos\\StudyProgressChecker\\StudyProgressChecker\\Views\\StudySession\\Index.cshtml",
+              "RelativeToolTip": "StudyProgressChecker\\Views\\StudySession\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABYAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-08T10:22:29.05Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\Chamiru Senarath\\source\\repos\\StudyProgressChecker\\StudyProgressChecker\\Views\\Subject\\Index.cshtml",
-              "RelativeDocumentMoniker": "StudyProgressChecker\\Views\\Subject\\Index.cshtml",
-              "ToolTip": "C:\\Users\\Chamiru Senarath\\source\\repos\\StudyProgressChecker\\StudyProgressChecker\\Views\\Subject\\Index.cshtml*",
-              "RelativeToolTip": "StudyProgressChecker\\Views\\Subject\\Index.cshtml*",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAQAAAA",
+              "DocumentIndex": 6,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\Chamiru Senarath\\source\\repos\\StudyProgressChecker\\StudyProgressChecker\\Views\\StudySession\\Create.cshtml",
+              "RelativeDocumentMoniker": "StudyProgressChecker\\Views\\StudySession\\Create.cshtml",
+              "ToolTip": "C:\\Users\\Chamiru Senarath\\source\\repos\\StudyProgressChecker\\StudyProgressChecker\\Views\\StudySession\\Create.cshtml",
+              "RelativeToolTip": "StudyProgressChecker\\Views\\StudySession\\Create.cshtml",
+              "ViewState": "AQIAABQAAAAAAAAAAAAAAD8AAAAuAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-06-30T10:08:35.755Z",
+              "WhenOpened": "2024-07-08T10:10:41.357Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "Edit.cshtml",
-              "DocumentMoniker": "C:\\Users\\Chamiru Senarath\\source\\repos\\StudyProgressChecker\\StudyProgressChecker\\Views\\Subject\\Edit.cshtml",
-              "RelativeDocumentMoniker": "StudyProgressChecker\\Views\\Subject\\Edit.cshtml",
-              "ToolTip": "C:\\Users\\Chamiru Senarath\\source\\repos\\StudyProgressChecker\\StudyProgressChecker\\Views\\Subject\\Edit.cshtml",
-              "RelativeToolTip": "StudyProgressChecker\\Views\\Subject\\Edit.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAAA/AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-06-30T10:17:29.549Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{1c64b9c2-e352-428e-a56d-0ace190b99a6}"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\Chamiru Senarath\\source\\repos\\StudyProgressChecker\\StudyProgressChecker\\Program.cs",
-              "RelativeDocumentMoniker": "StudyProgressChecker\\Program.cs",
-              "ToolTip": "C:\\Users\\Chamiru Senarath\\source\\repos\\StudyProgressChecker\\StudyProgressChecker\\Program.cs",
-              "RelativeToolTip": "StudyProgressChecker\\Program.cs",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAAAB8AAABCAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-30T06:40:37.052Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "Create.cshtml",
-              "DocumentMoniker": "C:\\Users\\Chamiru Senarath\\source\\repos\\StudyProgressChecker\\StudyProgressChecker\\Views\\Subject\\Create.cshtml",
-              "RelativeDocumentMoniker": "StudyProgressChecker\\Views\\Subject\\Create.cshtml",
-              "ToolTip": "C:\\Users\\Chamiru Senarath\\source\\repos\\StudyProgressChecker\\StudyProgressChecker\\Views\\Subject\\Create.cshtml",
-              "RelativeToolTip": "StudyProgressChecker\\Views\\Subject\\Create.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAAABAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-06-30T06:36:30.638Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Details.cshtml",
-              "DocumentMoniker": "C:\\Users\\Chamiru Senarath\\source\\repos\\StudyProgressChecker\\StudyProgressChecker\\Views\\Subject\\Details.cshtml",
-              "RelativeDocumentMoniker": "StudyProgressChecker\\Views\\Subject\\Details.cshtml",
-              "ToolTip": "C:\\Users\\Chamiru Senarath\\source\\repos\\StudyProgressChecker\\StudyProgressChecker\\Views\\Subject\\Details.cshtml",
-              "RelativeToolTip": "StudyProgressChecker\\Views\\Subject\\Details.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-06-30T06:35:57.211Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Subject.cs",
-              "DocumentMoniker": "C:\\Users\\Chamiru Senarath\\source\\repos\\StudyProgressChecker\\StudyProgressChecker\\Models\\Subject.cs",
-              "RelativeDocumentMoniker": "StudyProgressChecker\\Models\\Subject.cs",
-              "ToolTip": "C:\\Users\\Chamiru Senarath\\source\\repos\\StudyProgressChecker\\StudyProgressChecker\\Models\\Subject.cs",
-              "RelativeToolTip": "StudyProgressChecker\\Models\\Subject.cs",
-              "ViewState": "AQIAABIAAAAAAAAAAAArwCYAAAAeAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-30T05:53:09.007Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "Student.cs",
-              "DocumentMoniker": "C:\\Users\\Chamiru Senarath\\source\\repos\\StudyProgressChecker\\StudyProgressChecker\\Models\\Student.cs",
-              "RelativeDocumentMoniker": "StudyProgressChecker\\Models\\Student.cs",
-              "ToolTip": "C:\\Users\\Chamiru Senarath\\source\\repos\\StudyProgressChecker\\StudyProgressChecker\\Models\\Student.cs",
-              "RelativeToolTip": "StudyProgressChecker\\Models\\Student.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-30T05:53:21.125Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "Enums.cs",
-              "DocumentMoniker": "C:\\Users\\Chamiru Senarath\\source\\repos\\StudyProgressChecker\\StudyProgressChecker\\Models\\Enums.cs",
-              "RelativeDocumentMoniker": "StudyProgressChecker\\Models\\Enums.cs",
-              "ToolTip": "C:\\Users\\Chamiru Senarath\\source\\repos\\StudyProgressChecker\\StudyProgressChecker\\Models\\Enums.cs",
-              "RelativeToolTip": "StudyProgressChecker\\Models\\Enums.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAQAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-30T05:01:47.843Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "StudySession.cs",
-              "DocumentMoniker": "C:\\Users\\Chamiru Senarath\\source\\repos\\StudyProgressChecker\\StudyProgressChecker\\Models\\StudySession.cs",
-              "RelativeDocumentMoniker": "StudyProgressChecker\\Models\\StudySession.cs",
-              "ToolTip": "C:\\Users\\Chamiru Senarath\\source\\repos\\StudyProgressChecker\\StudyProgressChecker\\Models\\StudySession.cs",
-              "RelativeToolTip": "StudyProgressChecker\\Models\\StudySession.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAtAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-30T04:53:24.45Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
               "Title": "_Layout.cshtml",
               "DocumentMoniker": "C:\\Users\\Chamiru Senarath\\source\\repos\\StudyProgressChecker\\StudyProgressChecker\\Views\\Shared\\_Layout.cshtml",
               "RelativeDocumentMoniker": "StudyProgressChecker\\Views\\Shared\\_Layout.cshtml",
               "ToolTip": "C:\\Users\\Chamiru Senarath\\source\\repos\\StudyProgressChecker\\StudyProgressChecker\\Views\\Shared\\_Layout.cshtml",
               "RelativeToolTip": "StudyProgressChecker\\Views\\Shared\\_Layout.cshtml",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAAABkAAAAcAAAA",
+              "ViewState": "AQIAADAAAAAAAAAAAAAAAEUAAAB4AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-06-29T06:03:49.096Z",
+              "WhenOpened": "2024-07-08T09:23:20.659Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "ViewSingleStudentController.cs",
-              "DocumentMoniker": "C:\\Users\\Chamiru Senarath\\source\\repos\\StudyProgressChecker\\StudyProgressChecker\\Controllers\\ViewSingleStudentController.cs",
-              "RelativeDocumentMoniker": "StudyProgressChecker\\Controllers\\ViewSingleStudentController.cs",
-              "ToolTip": "C:\\Users\\Chamiru Senarath\\source\\repos\\StudyProgressChecker\\StudyProgressChecker\\Controllers\\ViewSingleStudentController.cs",
-              "RelativeToolTip": "StudyProgressChecker\\Controllers\\ViewSingleStudentController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAaAAAA",
+              "DocumentIndex": 7,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Chamiru Senarath\\source\\repos\\StudyProgressChecker\\StudyProgressChecker\\Program.cs",
+              "RelativeDocumentMoniker": "StudyProgressChecker\\Program.cs",
+              "ToolTip": "C:\\Users\\Chamiru Senarath\\source\\repos\\StudyProgressChecker\\StudyProgressChecker\\Program.cs",
+              "RelativeToolTip": "StudyProgressChecker\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-29T06:16:36.618Z"
+              "WhenOpened": "2024-07-08T09:23:17.045Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "AddStudySessionController.cs",
-              "DocumentMoniker": "C:\\Users\\Chamiru Senarath\\source\\repos\\StudyProgressChecker\\StudyProgressChecker\\Controllers\\AddStudySessionController.cs",
-              "RelativeDocumentMoniker": "StudyProgressChecker\\Controllers\\AddStudySessionController.cs",
-              "ToolTip": "C:\\Users\\Chamiru Senarath\\source\\repos\\StudyProgressChecker\\StudyProgressChecker\\Controllers\\AddStudySessionController.cs",
-              "RelativeToolTip": "StudyProgressChecker\\Controllers\\AddStudySessionController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAFAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-29T06:14:33.848Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 8,
               "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\Chamiru Senarath\\source\\repos\\StudyProgressChecker\\StudyProgressChecker\\Views\\AddStudyData\\Index.cshtml",
-              "RelativeDocumentMoniker": "StudyProgressChecker\\Views\\AddStudyData\\Index.cshtml",
-              "ToolTip": "C:\\Users\\Chamiru Senarath\\source\\repos\\StudyProgressChecker\\StudyProgressChecker\\Views\\AddStudyData\\Index.cshtml",
-              "RelativeToolTip": "StudyProgressChecker\\Views\\AddStudyData\\Index.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAAAAAA",
+              "DocumentMoniker": "C:\\Users\\Chamiru Senarath\\source\\repos\\StudyProgressChecker\\StudyProgressChecker\\Views\\Student\\Index.cshtml",
+              "RelativeDocumentMoniker": "StudyProgressChecker\\Views\\Student\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Chamiru Senarath\\source\\repos\\StudyProgressChecker\\StudyProgressChecker\\Views\\Student\\Index.cshtml",
+              "RelativeToolTip": "StudyProgressChecker\\Views\\Student\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACUAAAAIAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-06-29T06:13:29.724Z"
+              "WhenOpened": "2024-07-08T09:21:04.736Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "ViewStudyDataController.cs",
-              "DocumentMoniker": "C:\\Users\\Chamiru Senarath\\source\\repos\\StudyProgressChecker\\StudyProgressChecker\\Controllers\\ViewStudyDataController.cs",
-              "RelativeDocumentMoniker": "StudyProgressChecker\\Controllers\\ViewStudyDataController.cs",
-              "ToolTip": "C:\\Users\\Chamiru Senarath\\source\\repos\\StudyProgressChecker\\StudyProgressChecker\\Controllers\\ViewStudyDataController.cs",
-              "RelativeToolTip": "StudyProgressChecker\\Controllers\\ViewStudyDataController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAACAAAAAtAAAA",
+              "DocumentIndex": 0,
+              "Title": "StudentProgress.cshtml",
+              "DocumentMoniker": "C:\\Users\\Chamiru Senarath\\source\\repos\\StudyProgressChecker\\StudyProgressChecker\\Views\\StudySession\\StudentProgress.cshtml",
+              "RelativeDocumentMoniker": "StudyProgressChecker\\Views\\StudySession\\StudentProgress.cshtml",
+              "ToolTip": "C:\\Users\\Chamiru Senarath\\source\\repos\\StudyProgressChecker\\StudyProgressChecker\\Views\\StudySession\\StudentProgress.cshtml",
+              "RelativeToolTip": "StudyProgressChecker\\Views\\StudySession\\StudentProgress.cshtml",
+              "ViewState": "AQIAAIUAAAAAAAAAAAAgwJEAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-08T09:18:43.928Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Student.cs",
+              "DocumentMoniker": "C:\\Users\\Chamiru Senarath\\source\\repos\\StudyProgressChecker\\StudyProgressChecker\\Models\\Student.cs",
+              "RelativeDocumentMoniker": "StudyProgressChecker\\Models\\Student.cs",
+              "ToolTip": "C:\\Users\\Chamiru Senarath\\source\\repos\\StudyProgressChecker\\StudyProgressChecker\\Models\\Student.cs",
+              "RelativeToolTip": "StudyProgressChecker\\Models\\Student.cs",
+              "ViewState": "AQIAAIEAAAAAAAAAAAAIwJ0AAAABAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-29T05:59:13.306Z"
+              "WhenOpened": "2024-07-08T09:17:50.51Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\Chamiru Senarath\\source\\repos\\StudyProgressChecker\\StudyProgressChecker\\Views\\ViewStudyData\\Index.cshtml",
-              "RelativeDocumentMoniker": "StudyProgressChecker\\Views\\ViewStudyData\\Index.cshtml",
-              "ToolTip": "C:\\Users\\Chamiru Senarath\\source\\repos\\StudyProgressChecker\\StudyProgressChecker\\Views\\ViewStudyData\\Index.cshtml",
-              "RelativeToolTip": "StudyProgressChecker\\Views\\ViewStudyData\\Index.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAFAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-06-29T05:36:36.334Z"
+              "DocumentIndex": 1,
+              "Title": "StudySession.cs",
+              "DocumentMoniker": "C:\\Users\\Chamiru Senarath\\source\\repos\\StudyProgressChecker\\StudyProgressChecker\\Models\\StudySession.cs",
+              "RelativeDocumentMoniker": "StudyProgressChecker\\Models\\StudySession.cs",
+              "ToolTip": "C:\\Users\\Chamiru Senarath\\source\\repos\\StudyProgressChecker\\StudyProgressChecker\\Models\\StudySession.cs",
+              "RelativeToolTip": "StudyProgressChecker\\Models\\StudySession.cs",
+              "ViewState": "AQIAAIwAAAAAAAAAAAAiwJsAAAAmAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-08T09:17:41.35Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "StudySessionController.cs",
+              "DocumentMoniker": "C:\\Users\\Chamiru Senarath\\source\\repos\\StudyProgressChecker\\StudyProgressChecker\\Controllers\\StudySessionController.cs",
+              "RelativeDocumentMoniker": "StudyProgressChecker\\Controllers\\StudySessionController.cs",
+              "ToolTip": "C:\\Users\\Chamiru Senarath\\source\\repos\\StudyProgressChecker\\StudyProgressChecker\\Controllers\\StudySessionController.cs",
+              "RelativeToolTip": "StudyProgressChecker\\Controllers\\StudySessionController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAlAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-08T09:17:22.036Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{40ea2e6b-2121-4bb8-a43e-c83c04b51041}"
             }
           ]
         }

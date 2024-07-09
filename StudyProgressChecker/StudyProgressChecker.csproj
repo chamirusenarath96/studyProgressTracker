@@ -7,19 +7,27 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Content Remove="Views\Subject\Edit.cshtml" />
+    <Content Remove="Views\Shared\Delete.cshtml" />
+    <Content Remove="Views\Subject\Delete.cshtml" />
   </ItemGroup>
 
   <ItemGroup>
-    <UpToDateCheckInput Remove="Views\Subject\Edit.cshtml" />
+    <UpToDateCheckInput Remove="Views\Subject\Delete.cshtml" />
   </ItemGroup>
 
   <ItemGroup>
-    <_ContentIncludedByDefault Remove="Views\Subject\Edit.cshtml" />
+    <_ContentIncludedByDefault Remove="Views\Subject\Delete.cshtml" />
   </ItemGroup>
 
   <ItemGroup>
-    <None Include="Views\Subject\Edit.cshtml" />
+    <None Include="Views\Shared\Delete.cshtml" />
+    <None Include="Views\Subject\Delete.cshtml" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="bootstrap" Version="5.3.3" />
+    <PackageReference Include="jQuery-datetimepicker" Version="2.4.5" />
+    <PackageReference Include="Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation" Version="8.0.6" />
   </ItemGroup>
 
 </Project>

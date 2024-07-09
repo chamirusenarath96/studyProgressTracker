@@ -1,0 +1,35 @@
+﻿@model IEnumerable<StudyProgressChecker.Models.StudySession>
+@{
+    const int MaxTotalMinutes = 8 * 60; // 8 hours in minutes
+}
+
+<h2>Study Sessions</h2>
+<p>
+    <a asp-action="Create" class="btn btn-primary">Create New Study Session</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>Student</th>
+            <th>Subject</th>
+            <th>Date and Start Time</th>
+            <th>Studied Time</th>
+            <th>Break Time</th>
+            <th>Knowledge Gained</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            var breakTimeMinutes = Math.Max(0, MaxTotalMinutes - item.StudiedTimeMinutes);
+            <tr>
+                <td>@item.StudentId</td>
+                <td>@item.Subject.Name</td>
+                <td>@item.DateAndStartTime.ToString("g")</td>
+                <td>@TimeSpan.FromMinutes(item.StudiedTimeMinutes).ToString(@"hh\:mm")</td>
+                <td>@TimeSpan.FromMinutes(breakTimeMinutes).ToString(@"hh\:mm")</td>
+                <td>@item.KnowledgeGained</td>
+            </tr>
+        }
+    </tbody>
+</table>

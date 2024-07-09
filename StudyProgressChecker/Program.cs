@@ -1,6 +1,7 @@
-using StudyProgressChecker.Models;
-
 var builder = WebApplication.CreateBuilder(args);
+
+builder.Services.AddControllersWithViews();
+builder.Services.AddRazorPages().AddRazorRuntimeCompilation();
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();
@@ -24,11 +25,6 @@ app.UseAuthorization();
 
 app.MapControllerRoute(
     name: "default",
-    pattern: "{controller=Home}/{action=Index}/{id?}");
-
-// adding dummy data
-Subject.AddSubject(new Subject { Name = "Math", Weight = 50 });
-Subject.AddSubject(new Subject { Name = "Science", Weight = 80 });
-Subject.AddSubject(new Subject { Name = "History", Weight = 60 });
+    pattern: "{controller=StudySession}/{action=Index}/{id?}");
 
 app.Run();

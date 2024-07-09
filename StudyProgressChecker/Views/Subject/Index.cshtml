@@ -1,25 +1,31 @@
 ﻿@model List<StudyProgressChecker.Models.Subject>
 
-<h2>All Subjects</h2>
+<h1>Subjects</h1>
 
-<a asp-action="Add" class="btn btn-primary">Add New Subject</a>
-
+<p>
+    <a asp-action="Create">Create New</a>
+</p>
 <table class="table">
-    <tr>
-        <th>ID</th>
-        <th>Name</th>
-        <th>Weight</th>
-        <th>Actions</th>
-    </tr>
-    @foreach (var subject in Model)
-    {
+    <thead>
         <tr>
-            <td>@subject.Id</td>
-            <td>@subject.Name</td>
-            <td>@subject.Weight</td>
-            <td>
-                <a class="btn btn-secondary" asp-area="" asp-controller="Subject" asp-action="Edit" asp-route-id="@subject.Id" >Edit</a>
-            </td>
+            <th>Name</th>
+            <th>Weight</th>
+            <th>Actions</th>
         </tr>
-    }
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>@item.Name</td>
+                <td>@item.Weight</td>
+                <td>
+                    <a asp-action="Edit" asp-route-name="@item.Name">Edit</a> |
+                    <a asp-action="Delete" asp-route-name="@item.Name">Delete</a>
+                </td>
+            </tr>
+        }
+    </tbody>
 </table>
+
+<a asp-action="EditAll">Edit All Subjects</a>

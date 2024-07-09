@@ -1,0 +1,111 @@
+﻿@model StudyProgressChecker.Models.StudySession
+
+<div class="container mt-5">
+    <h1 class="mb-4">Create Study Session</h1>
+
+    <form asp-action="Create" class="needs-validation" novalidate>
+        <div class="form-group row mb-3">
+            <label asp-for="StudentId" class="col-sm-3 col-form-label">Student</label>
+            <div class="col-sm-9">
+                <select asp-for="StudentId" asp-items="ViewBag.Students" class="form-control">
+                    <option value="">-- Select Student --</option>
+                </select>
+                <span asp-validation-for="StudentId" class="text-danger"></span>
+            </div>
+        </div>
+
+        <div class="form-group row mb-3">
+            <label asp-for="Subject" class="col-sm-3 col-form-label">Subject</label>
+            <div class="col-sm-9">
+                <select asp-for="Subject.Name" id="subjectDropdown" class="form-control">
+                    <option value="">-- Select Subject --</option>
+                </select>
+                <span asp-validation-for="Subject" class="text-danger"></span>
+            </div>
+        </div>
+
+        <div class="form-group row mb-3">
+            <label asp-for="DateAndStartTime" class="col-sm-3 col-form-label">Date</label>
+            <div class="col-sm-9">
+                <input asp-for="DateAndStartTime" type="date" class="form-control" />
+                <span asp-validation-for="DateAndStartTime" class="text-danger"></span>
+            </div>
+        </div>
+
+        <div class="form-group row mb-3">
+            <label asp-for="StudiedTimeMinutes" class="col-sm-3 col-form-label">Studied Time</label>
+            <div class="col-sm-9">
+                <input asp-for="StudiedTimeMinutes" type="range" min="15" max="480" step="15" class="form-range" id="studiedTimeSlider" value="15" />
+                <span id="studiedTimeValue" class="form-text"></span>
+                <span asp-validation-for="StudiedTimeMinutes" class="text-danger"></span>
+            </div>
+        </div>
+
+        <div class="form-group row mb-3">
+            <label asp-for="KnowledgeGained" class="col-sm-3 col-form-label">Knowledge Gained</label>
+            <div class="col-sm-9">
+                <select asp-for="KnowledgeGained" class="form-control">
+                    <option value="1">Very Low</option>
+                    <option value="2">Low</option>
+                    <option value="3">Below Average</option>
+                    <option value="4">Average</option>
+                    <option value="5">Above Average</option>
+                    <option value="6">Good</option>
+                    <option value="7">Very Good</option>
+                    <option value="8">Excellent</option>
+                    <option value="9">Outstanding</option>
+                    <option value="10">Exceptional</option>
+                </select>
+                <span asp-validation-for="KnowledgeGained" class="text-danger"></span>
+            </div>
+        </div>
+
+        <div class="form-group row">
+            <div class="col-sm-9 offset-sm-3">
+                <button type="submit" class="btn btn-primary">Create</button>
+                <a asp-action="Index" class="btn btn-secondary">Back to List</a>
+            </div>
+        </div>
+    </form>
+</div>
+
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+
+    <script>
+        $(document).ready(function () {
+            const MAX_TOTAL_MINUTES = 8 * 60; // 8 hours in minutes
+
+            // Update subject dropdown when student is selected
+            $('#StudentId').change(function () {
+                var studentId = $(this).val();
+                $.getJSON('/StudySession/GetStudentSubjects', { studentId: studentId }, function (data) {
+                    var subjectDropdown = $('#subjectDropdown');
+                    subjectDropdown.empty();
+                    subjectDropdown.append($('<option></option>').val('').text('-- Select Subject --'));
+                    $.each(data, function (index, subject) {
+                        subjectDropdown.append($('<option></option>').val(subject.name).text(subject.name));
+                    });
+                });
+            });
+
+            function formatTime(minutes) {
+                var hours = Math.floor(minutes / 60);
+                var mins = minutes % 60;
+                return hours + "h " + (mins < 10 ? "0" : "") + mins + "m";
+            }
+
+            function updateSliderValue() {
+                var studiedTime = parseInt($('#studiedTimeSlider').val());
+                $('#studiedTimeValue').text(formatTime(studiedTime));
+            }
+
+            $('#studiedTimeSlider').on('input', updateSliderValue);
+
+            // Initial update
+            updateSliderValue();
+        });
+    </script>
+}

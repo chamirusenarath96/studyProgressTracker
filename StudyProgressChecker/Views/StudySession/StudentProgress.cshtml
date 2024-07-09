@@ -1,0 +1,180 @@
+﻿@model IEnumerable<StudyProgressChecker.Models.StudySession>
+
+@{
+    ViewData["Title"] = "Student Progress";
+}
+
+<h1>Student Progress for @ViewBag.StudentName</h1>
+
+<div class="row mb-3">
+    <div class="col-md-4">
+        <select id="weekSelector" class="form-control"></select>
+    </div>
+    <div class="col-md-4">
+        <button id="predictGradeBtn" class="btn btn-primary">Predict Semester Grade</button>
+    </div>
+</div>
+
+<canvas id="progressChart"></canvas>
+
+<div id="gradePrediction" class="mt-3"></div>
+
+@section Scripts {
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.1/moment.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chartjs-adapter-moment@1.0.0/dist/chartjs-adapter-moment.min.js"></script>
+    <script>
+        const studySessions = @Html.Raw(Json.Serialize(Model));
+        let chart;
+
+        function getWeekOptions() {
+            const weeks = [];
+            const firstSession = moment(studySessions[0].dateAndStartTime);
+            const lastSession = moment(studySessions[studySessions.length - 1].dateAndStartTime);
+            let currentWeek = moment(firstSession).startOf('week');
+
+            while (currentWeek.isSameOrBefore(lastSession)) {
+                weeks.push({
+                    start: currentWeek.format('YYYY-MM-DD'),
+                    end: moment(currentWeek).endOf('week').format('YYYY-MM-DD'),
+                    display: `Week of ${currentWeek.format('MMM D, YYYY')}`
+                });
+                currentWeek.add(1, 'week');
+            }
+
+            return weeks;
+        }
+
+        function populateWeekSelector() {
+            const weekSelector = document.getElementById('weekSelector');
+            const weeks = getWeekOptions();
+
+            weeks.forEach((week, index) => {
+                const option = document.createElement('option');
+                option.value = index;
+                option.textContent = week.display;
+                weekSelector.appendChild(option);
+            });
+
+            weekSelector.selectedIndex = weeks.length - 1;  // Select the most recent week
+            weekSelector.addEventListener('change', updateChart);
+        }
+
+        function updateChart() {
+            const weekIndex = document.getElementById('weekSelector').value;
+            const weeks = getWeekOptions();
+            const selectedWeek = weeks[weekIndex];
+
+            const filteredSessions = studySessions.filter(session => {
+                const sessionDate = moment(session.dateAndStartTime);
+                return sessionDate.isBetween(selectedWeek.start, selectedWeek.end, null, '[]');
+            });
+
+            const data = processData(filteredSessions);
+
+            if (chart) {
+                chart.destroy();
+            }
+
+            const ctx = document.getElementById('progressChart').getContext('2d');
+            chart = new Chart(ctx, {
+                type: 'line',
+                data: data,
+                options: {
+                    responsive: true,
+                    scales: {
+                        x: {
+                            type: 'time',
+                            time: {
+                                unit: 'day',
+                                displayFormats: {
+                                    day: 'MMM D'
+                                }
+                            },
+                            title: {
+                                display: true,
+                                text: 'Date'
+                            }
+                        },
+                        y: {
+                            beginAtZero: true,
+                            title: {
+                                display: true,
+                                text: 'Minutes Studied'
+                            }
+                        }
+                    },
+                    plugins: {
+                        legend: {
+                            display: true,
+                            position: 'top'
+                        }
+                    }
+                }
+            });
+        }
+
+        function processData(sessions) {
+            const subjects = [...new Set(sessions.map(s => s.subject.name))];
+            const datasets = subjects.map(subject => ({
+                label: subject,
+                data: [],
+                fill: false,
+                borderColor: getRandomColor(),
+                tension: 0.1
+            }));
+
+            sessions.forEach(session => {
+                const datasetIndex = subjects.indexOf(session.subject.name);
+                datasets[datasetIndex].data.push({
+                    x: moment(session.dateAndStartTime).toDate(),
+                    y: session.studiedTimeMinutes
+                });
+            });
+
+            return { datasets };
+        }
+
+        function getRandomColor() {
+            const letters = '0123456789ABCDEF';
+            let color = '#';
+            for (let i = 0; i < 6; i++) {
+                color += letters[Math.floor(Math.random() * 16)];
+            }
+            return color;
+        }
+
+        function predictGrade() {
+            const totalStudyTime = studySessions.reduce((sum, session) => sum + session.studiedTimeMinutes, 0);
+            const averageStudyTimePerDay = totalStudyTime / moment().diff(moment(studySessions[0].dateAndStartTime), 'days');
+
+            const semesterDays = 90; // Assuming a 3-month semester
+            const projectedStudyTime = averageStudyTimePerDay * semesterDays;
+
+            let grade;
+            if (projectedStudyTime >= 10800) { // 180 hours or more
+                grade = 'A';
+            } else if (projectedStudyTime >= 9000) { // 150 hours or more
+                grade = 'B';
+            } else if (projectedStudyTime >= 7200) { // 120 hours or more
+                grade = 'C';
+            } else {
+                grade = 'D (Fail)';
+            }
+
+            const predictionElement = document.getElementById('gradePrediction');
+            predictionElement.innerHTML = `
+                        <h3>Grade Prediction</h3>
+                        <p>Based on your current study habits, your predicted grade for this semester is: <strong>${grade}</strong></p>
+                        <p>Projected study time for the semester: ${Math.round(projectedStudyTime / 60)} hours</p>
+                    `;
+        }
+
+
+        document.addEventListener('DOMContentLoaded', () => {
+            populateWeekSelector();
+            updateChart();
+            document.getElementById('predictGradeBtn').addEventListener('click', predictGrade);
+        });
+    </script>
+}

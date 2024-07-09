@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("StudyProgressChecker")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e1827c2ba56ae521cc0dad8d3363516e950d97c5")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+fabb367bf773aa4120cdfee7d76b6a94d9cf6491")]
 [assembly: System.Reflection.AssemblyProductAttribute("StudyProgressChecker")]
 [assembly: System.Reflection.AssemblyTitleAttribute("StudyProgressChecker")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

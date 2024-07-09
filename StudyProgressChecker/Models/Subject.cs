@@ -1,56 +1,77 @@
-﻿using System.ComponentModel.DataAnnotations;
+﻿using System;
+using System.Collections.Generic;
 
 namespace StudyProgressChecker.Models
 {
     public class Subject
     {
-        // Properties
-        public string Id { get; private set; }
+        private static Dictionary<string, Subject> Subjects = new Dictionary<string, Subject>(StringComparer.OrdinalIgnoreCase);
+        private static bool defaultSubjectsAdded = false;
 
-        [Required(ErrorMessage = "Subject name is required")]
-        [StringLength(50, MinimumLength = 3, ErrorMessage = "Subject name must be between 3 and 50 characters")]
         public string Name { get; set; }
-
-        [Range(0, 100, ErrorMessage = "Weight must be between 0 and 100")]
         public int Weight { get; set; }
 
-        // Constructor
-        public Subject()
-        {
-            Id = Guid.NewGuid().ToString(); // Generates a new GUID as ID
-        }
-
-        // Static list to store all created subjects
-        private static List<Subject> Subjects = new List<Subject>();
-
-        // Method to add a new subject to the list
-        public static void AddSubject(Subject subject)
-        {
-            Subjects.Add(subject);
-        }
-
-        // Method to retrieve all subjects
         public static List<Subject> GetAllSubjects()
         {
-            return Subjects;
+            if (!defaultSubjectsAdded)
+            {
+                AddDefaultSubjects();
+                defaultSubjectsAdded = true;
+            }
+            return new List<Subject>(Subjects.Values);
         }
 
-        // Method to find a subject by its ID
-        public static Subject GetSubjectById(string id)
+        private static void AddDefaultSubjects()
         {
-            return Subjects.Find(s => s.Id == id);
+            if (Subjects.Count == 0)
+            {
+                AddSubject(new Subject { Name = "Mathematics", Weight = 10 });
+                AddSubject(new Subject { Name = "Physics", Weight = 8 });
+                AddSubject(new Subject { Name = "Chemistry", Weight = 8 });
+                AddSubject(new Subject { Name = "Biology", Weight = 7 });
+                AddSubject(new Subject { Name = "History", Weight = 6 });
+            }
         }
 
-        // Method to update subject name
-        public void UpdateName(string newName)
+        public static bool AddSubject(Subject subject)
         {
-            Name = newName;
+            if (!Subjects.ContainsKey(subject.Name))
+            {
+                Subjects[subject.Name] = subject;
+                return true;
+            }
+            return false;
         }
 
-        // Method to update subject weight
-        public void UpdateWeight(int newWeight)
+        public static bool UpdateSubject(string oldName, Subject updatedSubject)
         {
-            Weight = newWeight;
+            if (Subjects.ContainsKey(oldName))
+            {
+                if (oldName != updatedSubject.Name && Subjects.ContainsKey(updatedSubject.Name))
+                {
+                    return false; // New name already exists
+                }
+                Subjects.Remove(oldName);
+                Subjects[updatedSubject.Name] = updatedSubject;
+                return true;
+            }
+            return false;
+        }
+
+        public static bool DeleteSubject(string name)
+        {
+            return Subjects.Remove(name);
+        }
+
+        public static bool SubjectExists(string name)
+        {
+            return Subjects.ContainsKey(name);
+        }
+
+        public static Subject GetSubject(string name)
+        {
+            Subjects.TryGetValue(name, out Subject subject);
+            return subject;
         }
     }
 }
